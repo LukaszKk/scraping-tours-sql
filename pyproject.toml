@@ -1,0 +1,15 @@
+[tool.poetry]
+name = "scraping-tours-sql"
+version = "0.1.0"
+description = ""
+authors = ["Łukasz Kuk <lukasz010420@gmail.com>"]
+readme = "README.md"
+packages = [{include = "scraping_tours_sql"}]
+
+[tool.poetry.dependencies]
+python = "^3.11"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
