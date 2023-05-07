@@ -8,6 +8,8 @@ packages = [{include = "scraping_tours_sql"}]
 
 [tool.poetry.dependencies]
 python = "^3.11"
+requests = "^2.30.0"
+selectorlib = "^0.16.0"
 
 
 [build-system]
